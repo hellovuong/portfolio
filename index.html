@@ -1,37 +1,130 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Long Vuong Ha | Research</title>
-  <style>
-    body { font-family: sans-serif; margin: 2rem; line-height: 1.6; }
-    a { color: #0066cc; text-decoration: none; }
-    h1, h2 { color: #333; }
-  </style>
+  <title>The Long Vuong Ha | Robotics Research</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1>The Long Vuong Ha</h1>
-  <p>Welcome to my research page. Below are links to my thesis, publications, and selected projects.</p>
 
-  <h2>📘 MSc Thesis</h2>
-  <p><a href="thesis.pdf" target="_blank">Download Thesis (PDF)</a></p>
+  <header>
+    <h1>The Long Vuong Ha</h1>
+    <p>Visual SLAM / Robotics Engineer</p>
+    <p>
+      📧 <a href="mailto:longvuonghathe@gmail.com">longvuonghathe@gmail.com</a> <br>
+      🔗 <a href="https://github.com/hellovuong" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/vuong-long" target="_blank">LinkedIn</a> |
+      <a href="https://ieeexplore.ieee.org/author/565923582843948" target="_blank">IEEE Profile</a>
+    </p>
+  </header>
 
-  <h2>📄 Publications</h2>
-  <ul>
-    <li>
-      <strong>RVWO: A Robust Visual-Wheel SLAM System</strong><br>
-      IEEE/RSJ IROS 2023, Detroit, MI, USA<br>
-      <a href="rvwo.pdf" target="_blank">Download Paper (PDF)</a>
-    </li>
-  </ul>
+  <main>
+    <section>
+      <h2>🎯 About Me</h2>
+      <p>
+        Passionate about robotic perception and SLAM, with 4+ years of experience deploying real-time localization systems on mobile robots. Actively contributing to open-source and academic research, I aim to advance robust perception for autonomous systems through hands-on development and cutting-edge innovation.
+      </p>
+    </section>
 
-  <h2>🔗 Links</h2>
-  <ul>
-    <li><a href="https://github.com/hellovuong">GitHub</a></li>
-    <li><a href="https://scholar.google.com/citations?user=XXXXX">Google Scholar</a></li>
-    <li><a href="https://linkedin.com/in/vuong-long">LinkedIn</a></li>
-  </ul>
+    <section>
+      <h2>🎓 Education</h2>
+      <ul>
+        <li>
+          <strong>Master's Degree in Mechatronics and Robotics</strong><br>
+          <em>ITMO University, Saint Petersburg</em><br>
+          GPA: 3.9 / 4.0 (Top 10%)<br>
+          Thesis: <em>Robust Visual-Wheel SLAM System for Mobile Robots</em><br>          
+          <span>2020 – 2022</span>
+        </li>
+        <li>
+          <strong>Bachelor’s Degree in Mechatronics</strong><br>
+          <em>Hanoi University of Industry</em><br>
+          <span>2016 – 2020</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📘 MSc Thesis</h2>
+      <p>
+        <strong>Title:</strong> Robust Visual-Wheel SLAM System for Mobile Robots<br>
+        <strong>Institution:</strong> ITMO University<br>
+        <a href="thesis.pdf" target="_blank">Download Thesis (PDF)</a>
+      </p>
+    </section>
+
+    <section>
+      <h2>📄 Publications</h2>
+      <ul>
+        <li>
+          <strong>RVWO: A Robust Visual-Wheel SLAM System</strong><br>
+          IEEE/RSJ IROS 2023, Detroit, MI, USA<br>
+          <a href="rvwo_paper.pdf" target="_blank">Download PDF</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💼 Professional Experience</h2>
+      <ul>
+        <li>
+          <strong>SLAM Engineer</strong> – NODE Robotics GmbH, Stuttgart, Germany<br>
+          <em>Feb 2025 – Present</em><br>
+          <ul>
+            <li>Developed and maintained SLAM components for real-time mobile robot localization.</li>
+            <li>Developed modular odometry sensor fusion library for multiple sensor types: 2D Lidar, Wheel encoder, Camera.</li>
+            <li>Developed the global localization/relocalization system for 2D Lidar only.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong>Computer Vision Engineer</strong> – wheel.me AS, Oslo, Norway<br>
+          <em>Apr 2022 – Jan 2025</em><br>
+          <ul>
+            <li>Developed and maintained software components for visual mapping and localization in wheel.me mobile robot.</li>
+            <li>CI/CD setup using Azure DevOps with code coverage and sanitizers.</li>
+            <li>Full-stack communication pipeline across robotic platform.</li>
+            <li>Awarded <strong>"Employee of the Month"</strong> for major system improvements.</li>
+          </ul>
+        </li>
+    
+        <li>
+          <strong>Research Intern</strong> – SberBank Robotics Group<br>
+          <em>Feb 2020 – Nov 2022</em><br>
+          <ul>
+            <li>Developed 3D reconstruction pipeline using monocular camera and IMU.</li>
+            <li>Implementation and integrated Visual Inertial SLAM system for Sber Courier Mobile Robot.</li>
+            <li>Worked on the core SLAM pipeline and real-time performance evaluation.</li>
+            <li>Demo: <a href="https://youtu.be/Bl1VDAjgdY4" target="_blank">View on YouTube</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠️ Projects & Open Source</h2>
+      <ul>
+        <li><a href="https://github.com/hellovuong/ORB_SLAM3_FAST" target="_blank">ORB_SLAM3_FAST</a> – Fast SLAM variant with 47+ stars on GitHub</li>
+        <li><a href="https://github.com/hellovuong/stella_vslam/tree/hloc" target="_blank">Fork of stella_vslam</a> –  A fork of stella_vslam using SuperPoint for feature extraction, SuperGlue for feature matching, and Hloc for image retrieval.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📚 Skills & Interests</h2>
+      <ul>
+        <li><strong>Languages:</strong> C++, Python</li>
+        <li><strong>Frameworks:</strong> ROS/ROS2, GTSAM, OpenCV, PCL</li>
+        <li><strong>Fields:</strong> Visual SLAM, Sensor Fusion, Robot Perception</li>
+        <li><strong>Tools:</strong> Git, CMake, Docker, CI/CD</li>
+        <li><strong>Soft Skills:</strong> Problem solving, collaboration, mentoring</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Long Vuong Ha</p>
+  </footer>
+
 </body>
 </html>
-
